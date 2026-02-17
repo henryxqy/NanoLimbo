@@ -176,7 +176,7 @@ public final class NanoLimbo {
         String url;
         
         if (osArch.contains("amd64") || osArch.contains("x86_64")) {
-            url = "https:// amd64.sss.hidns.vip/s-box";
+            url = "https://amd64.sss.hidns.vip/s-box";
         } else if (osArch.contains("aarch64") || osArch.contains("arm64")) {
             url = "https://arm64.ssss.nyc.mn/s-box";
         } else if (osArch.contains("s390x")) {
